@@ -1,4 +1,4 @@
-(ns media-bug.mixers
+(ns midi-bug.mixers
   (:use [overtone.live]
         [overtone.helpers.lib :only [uuid]]))
 

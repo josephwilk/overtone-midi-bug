@@ -1,11 +1,11 @@
-(ns media-bug.core
+(ns midi-bug.core
   (:use
    [overtone.live]
    [nano-kontrol2.config :only [mixer-init-state basic-mixer-init-state]])
   (:require
    [nano-kontrol2.core :as nk2]
    [nano-kontrol2.buttons :as btn]
-   [media-bug.mixers :as mixers]))
+   [midi-bug.mixers :as mixers]))
 
 (defn nk-bank
   "Returns the nk bank number for the specified bank key"
